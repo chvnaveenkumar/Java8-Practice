@@ -1,0 +1,7 @@
+package SAM;
+
+public class AImp {
+	public static void main(String args[]) {
+		
+	}
+}

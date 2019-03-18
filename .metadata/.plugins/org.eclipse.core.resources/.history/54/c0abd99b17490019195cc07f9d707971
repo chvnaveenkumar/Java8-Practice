@@ -1,0 +1,6 @@
+package SAM;
+
+public interface B {
+
+	String test(String s1, String s2);
+}

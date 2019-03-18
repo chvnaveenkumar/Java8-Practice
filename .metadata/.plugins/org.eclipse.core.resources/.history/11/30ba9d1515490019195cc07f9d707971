@@ -1,0 +1,23 @@
+package SAM;
+
+public class AImp {
+	public static void main(String args[]) {
+		
+		// General Implmentation
+		A aObj = new A() {
+			public String m1() {
+				return "Testing Anonymous impl for interface ..";
+			}
+		};
+		System.out.println(aObj.m1());
+		System.out.println(aObj.wish());
+		
+		A a1 = () -> "Testing Lambda";
+		System.out.println(a1.m1());
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,11 @@
+package SAM;
+
+	
+public interface A{
+	String m1();
+	String m2(String a, String b);
+	default String wish() {
+		return "Hello";
+	}
+}
+
